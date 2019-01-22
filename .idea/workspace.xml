@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b047f6d-8442-4dbf-a08b-23b82def7313" name="Default Changelist" comment="" />
+    <list default="true" id="2b047f6d-8442-4dbf-a08b-23b82def7313" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_exchange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exchange.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,40 +31,41 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="py" value="15" />
+          <entry key="md" value="1" />
+          <entry key="py" value="20" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="19" />
-          <entry key="py" value="2399" />
+          <entry key="md" value="39" />
+          <entry key="py" value="2824" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="39" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="2399" />
+          <entry key="Python" value="2824" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding>
-                <element signature="e#56#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -70,10 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_stock.py">
+        <entry file="file://$PROJECT_DIR$/Order.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_order.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="60" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -82,10 +101,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Order.py">
+        <entry file="file://$PROJECT_DIR$/test_stock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="120">
+              <caret line="9" column="61" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="9" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -93,8 +124,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exchange.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_exchange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +151,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -118,9 +164,12 @@
         <option value="$PROJECT_DIR$/Stock.py" />
         <option value="$PROJECT_DIR$/Orders.py" />
         <option value="$PROJECT_DIR$/../aa/Stockexchange/Stock.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Exchange.py" />
-        <option value="$PROJECT_DIR$/Order.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Order.py" />
+        <option value="$PROJECT_DIR$/test_order.py" />
+        <option value="$PROJECT_DIR$/test_exchange.py" />
       </list>
     </option>
   </component>
@@ -130,6 +179,7 @@
     <option name="width" value="1360" />
     <option name="height" value="1028" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -164,71 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Exchange" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Stockexchange" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exchange.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Stockexchange" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../aa/Stockexchange" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../aa/Stockexchange/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Stockexchange" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_stock.TestStock" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_order.TestOrder.test_positive_reduce_quantity">
+    <configuration name="Unittests for test_order.TestOrder" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Stockexchange" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,11 +225,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stock.TestStock&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_stock.TestStock.test_write_file" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_order.TestOrder.test_negative_close_order" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Stockexchange" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,24 +239,66 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stock.TestStock.test_write_file&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_negative_close_order&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_order.TestOrder.test_negative_reduce_quantity" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Stockexchange" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_negative_reduce_quantity&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Stockexchange" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_positive_close_order&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_order.TestOrder.test_positive_reduce_quantity" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Stockexchange" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_positive_reduce_quantity&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.Unittests for test_stock.TestStock" />
-      <item itemvalue="Python tests.Unittests for test_stock.TestStock.test_write_file" />
-      <item itemvalue="Python.Exchange" />
-      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_negative_close_order" />
+      <item itemvalue="Python tests.Unittests for test_order.TestOrder" />
+      <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_positive_close_order" />
+      <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_negative_reduce_quantity" />
+      <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_positive_reduce_quantity" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.Exchange" />
-        <item itemvalue="Python tests.Unittests for test_stock.TestStock.test_write_file" />
-        <item itemvalue="Python tests.Unittests for test_stock.TestStock" />
+        <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_positive_reduce_quantity" />
+        <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_negative_reduce_quantity" />
+        <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_positive_close_order" />
+        <item itemvalue="Python tests.Unittests for test_order.TestOrder.test_negative_close_order" />
+        <item itemvalue="Python tests.Unittests for test_order.TestOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -287,35 +316,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_stock_TestStock_test_negative_load_file - 2019.01.16 at 15h 11m 09s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_negative_load_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 07m 40s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_negative_load_file - 2019.01.16 at 15h 11m 12s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_negative_load_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 08m 14s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_negative_load_file - 2019.01.16 at 15h 11m 16s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_negative_load_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 09m 38s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_negative_load_file - 2019.01.16 at 15h 11m 56s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_negative_load_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 10m 13s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_positive_load_file - 2019.01.16 at 15h 23m 14s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_positive_load_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 10m 19s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_positive_load_file - 2019.01.16 at 15h 33m 41s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_positive_load_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 12m 04s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock - 2019.01.16 at 15h 33m 45s.xml">
-      <configuration name="Unittests for test_stock.TestStock" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_close_order - 2019.01.22 at 19h 12m 13s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_close_order" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_write_file - 2019.01.16 at 16h 28m 15s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_write_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_negative_reduce_quantity - 2019.01.22 at 19h 14m 34s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_negative_reduce_quantity" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_write_file - 2019.01.16 at 16h 28m 23s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_write_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_negative_reduce_quantity - 2019.01.22 at 19h 14m 52s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_negative_reduce_quantity" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_stock_TestStock_test_write_file - 2019.01.16 at 16h 28m 45s.xml">
-      <configuration name="Unittests for test_stock.TestStock.test_write_file" configurationId="tests" />
+    <history-entry file="Unittests_for_test_order_TestOrder_test_positive_reduce_quantity - 2019.01.22 at 19h 15m 06s.xml">
+      <configuration name="Unittests for test_order.TestOrder.test_positive_reduce_quantity" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -323,7 +352,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -331,8 +360,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32896176" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.5497268" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32821077" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4720088" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -345,6 +374,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Order.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="open" />
@@ -425,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../aa/Stockexchange/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -446,36 +477,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="669" selection-start-line="669" selection-end-line="669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python3.6/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="60" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exchange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="345">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exchange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_exchange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <element signature="e#56#66#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

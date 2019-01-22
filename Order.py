@@ -1,6 +1,6 @@
 """
 @author: ranjithctlr@gmail.com
-@date:15/01/2018
+@date:22/01/2018
 """
 
 
@@ -14,11 +14,25 @@ class Order:
         self.status = status
 
     def close_order(self,order):
-        order.remaining_quantity = 0
-        order.status = 'closed'
-        return order
+        """
+        This function is used to change the status of an order to closed and
+        remaining quantity to zero
+        :param order:
+        :return:order
+        """
+        if hasattr(order, 'remaining_quantity'):
+            order.remaining_quantity = 0
+            order.status = 'closed'
+            return order
+        else:
+            return False
 
     def reduce_quantity(self,order,quantity):
+        """
+        This is method is used to reduce a specific quantity from an order
+        :param order:
+        :param quantity:
+        """
         order.remaining_quantity = int(order.remaining_quantity) - int(quantity)
         return order
 
